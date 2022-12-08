@@ -17,6 +17,7 @@ ul.header--menu {
 
 }
 
+
 .header--menu a.nav--link {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -29,5 +30,12 @@ ul.header--menu {
 }
 
 
-/*  */
+.header--menu a.nav--link.active {
+    padding: 8px 16px;
+    width: 100px;
+    height: 35px;
+    background: #43A833;
+    border-radius: 13px;
+}
 
+/*  */
