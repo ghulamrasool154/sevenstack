@@ -1,0 +1,45 @@
+.HeroSection {
+
+    padding: 250px 0;
+    position: relative;
+    background-image: url('../../assets/images/BG_HERO\ 1.png');
+    z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.HeroSection::after {
+    background-image: url('../../assets/images/fictional-planet-with-colourful-night-sky-stars.png');
+    position: absolute;
+    inset: 0;
+    content: "";
+    z-index: -1;
+    background-size: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.hero--about .hero---title {
+    font-family: 'Harmattan', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 90px;
+    color: #FFFFFF;
+}
+
+.hero---title span {
+    color: #42CF2C;
+
+}
+
+.hero--about .hero--disc {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 38px;
+    text-align: center;
+    color: #FFFFFF;
+
+}

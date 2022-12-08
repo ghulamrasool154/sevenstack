@@ -1,0 +1,27 @@
+.about {
+    background-image: url('../../assets/images/ABUS_HERO\ 1.png');
+    padding: 250px 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: -185px;
+}
+
+.about .about--detial h2 {
+    font-family: 'Harmattan', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.about .about--detial p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+    color: #ECECEC;
+
+}

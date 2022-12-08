@@ -1,0 +1,22 @@
+footer {
+    background: url('../../assets/images/Group.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding: 40px 0;
+}
+
+.footer--careers h5 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+.footer--links img {
+    max-height: 40px;
+}

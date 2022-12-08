@@ -1,0 +1,49 @@
+.contact--pop--up {
+    background-image: url('../../assets/images/contact\ mockup\ 1.png');
+    padding: 150px 0;
+    background-position: right;
+    background-size: cover;
+}
+
+.contact-title {
+
+    font-family: 'Harmattan', sans-serif;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    color: white;
+}
+
+/* or 146px */
+.form--contact label {
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+
+}
+
+
+.form--contact textarea,
+.form--contact input {
+    padding: 16px 32px;
+    background: #1A4E3F;
+    border-radius: 13px;
+
+    border: none;
+}
+
+.form--contact textarea:focus,
+.form--contact input:focus {
+    outline: none;
+    box-shadow: none;
+    background: #1A4E3F;
+    color: wheat;
+
+}

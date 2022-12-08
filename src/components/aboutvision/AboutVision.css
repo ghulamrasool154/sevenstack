@@ -1,0 +1,100 @@
+.AboutVision {
+    background-image: url('../../assets/images/ABUS_VISION\ 1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.our--vision--mission {
+    font-family: 'Harmattan', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 152.36%;
+    color: #FFFFFF;
+}
+
+.our--vison--disc {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 33.3911px;
+    line-height: 133.5%;
+    /* or 45px */
+
+    text-align: center;
+
+    color: #ECECEC;
+}
+
+.row.vision--row {
+    padding: 350px 0;
+}
+
+
+.mission--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.mission--row .our--vision--mission {
+    text-align: center;
+}
+
+.mission--wrapper .mission--item {
+    width: 31%;
+}
+
+.mission--item .mision--head img {
+    max-height: 80px;
+}
+
+.mission--item .mision--head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mission--item .mision--head h4 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 152.36%;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.mission--item .mission--disc {
+    border-radius: 42px;
+    position: relative;
+    padding: 50px 40px;
+    margin-bottom: 100px;
+}
+
+.mission--item .mission--disc::before {
+    background: linear-gradient(180deg, #2A3D4A 0%, #32505B 100%);
+    filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    position: absolute;
+    inset: 0;
+    content: "";
+    z-index: 1;
+    border-radius: 42px;
+}
+
+.mission--item .mission--disc p {
+    position: relative;
+    z-index: 2;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 152.36%;
+    text-align: justify;
+    color: #FFFFFF;
+}

@@ -1,0 +1,38 @@
+.getintouch {
+    background-color: rgba(12, 20, 25, 1);
+    padding: 100px 0;
+}
+
+.get--in--touch--wap .left h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 77px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.left h2 img {
+    max-height: 80px;
+}
+
+.get--in--touch--wap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get--in--touch--wap .right h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #48BE35;
+    margin-bottom: 0;
+}
+
+.get--in--touch--wap .right h5:first {
+    margin-bottom: 10px;
+}
