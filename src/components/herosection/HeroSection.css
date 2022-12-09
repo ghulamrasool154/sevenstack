@@ -1,12 +1,15 @@
 .HeroSection {
 
-    padding: 250px 0;
+    /* padding: 250px 0; */
     position: relative;
     background-image: url('../../assets/images/BG_HERO\ 1.png');
     z-index: 1;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    display: flex;
+    align-items: center;
+    height: 700px;
 }
 
 .HeroSection::after {
@@ -41,5 +44,79 @@
     font-size: 38px;
     text-align: center;
     color: #FFFFFF;
+
+}
+
+@media screen and (max-width : 1400px) {
+
+    .HeroSection::after,
+    .HeroSection {
+        background-size: cover;
+        height: 600px;
+    }
+
+    .hero--about .hero---title {
+        font-size: 80px;
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width : 1200px) {
+
+    .hero--about .hero---title {
+        font-size: 70px;
+    }
+
+    .hero--about .hero--disc {
+        font-size: 30px;
+    }
+
+    section.Home {
+        margin-top: -140px;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    section.Home {
+        margin-top: -110px;
+    }
+
+    .hero--about .hero---title {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width : 600px) {
+
+    .HeroSection::after,
+    .HeroSection {
+        height: 400px;
+    }
+
+    section.Home {
+        margin-top: -85px;
+    }
+
+    .hero--about .hero---title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .hero--about .hero--disc {
+        font-size: 20px;
+    }
+
+    .hero--about {
+        padding-top: 90px;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    section.Home {
+        margin-top: -134px;
+    }
 
 }

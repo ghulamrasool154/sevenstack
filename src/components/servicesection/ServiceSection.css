@@ -86,3 +86,158 @@
 .process--row img {
     margin-top: 150px;
 }
+
+
+
+
+/*  */
+
+.prodcess-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+.title--pro {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+@media screen and (max-width : 1400px) {
+
+    .our--process--imge img {
+        max-height: 150px;
+    }
+}
+
+@media screen and (max-width : 1200px) {
+
+    .our--process--imge img {
+        max-height: 100px;
+
+    }
+
+    .process--row img {
+        margin-top: 70px;
+    }
+
+    .title--pro {
+        font-size: 25px;
+    }
+
+    .single-item-head h4 {
+        font-size: 25px;
+        line-height: normal;
+    }
+
+    .single--item .single--item--disc {
+        position: relative;
+        padding: 35px 30px;
+        margin-bottom: 51px;
+    }
+
+    .single--item--disc p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+}
+
+@media screen and (max-width : 1024px) {
+    .service--colum .section--title {
+        margin: 70px auto 70px auto;
+    }
+
+    .section--title {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width : 992px) {
+
+    .single--item .single-item-head img {
+        max-height: 60px;
+    }
+
+    .single-item-head h4 {
+        font-size: 20px;
+    }
+
+    .service--items--wrapper .single--item {
+        width: 48%;
+    }
+
+    .process--row {
+        margin-bottom: 120px;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    .process--row img {
+        margin-top: 40px;
+    }
+
+    .process--row {
+        margin-bottom: 80px;
+    }
+
+    .our--process--imge img {
+        max-height: 80px;
+    }
+
+    .title--pro {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .our--process--imge.arrow {
+        display: none;
+    }
+
+    .section--title {
+        font-size: 25px;
+        width: auto;
+        max-width: 200px;
+        height: 60px;
+    }
+
+    .service--colum {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .service--items--wrapper .single--item {
+        width: 100%;
+    }
+
+    .single--item .single-item-head img {
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width : 500px) {
+    .prodcess-wrapper {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .prodcess-wrapper .our--process--imge {
+        width: 48%;
+        text-align: center;
+    }
+
+    .process--row {
+        margin-bottom: 50px;
+    }
+
+}

@@ -25,3 +25,74 @@
     color: #ECECEC;
 
 }
+
+@media screen and (max-width : 1400px) {
+
+    .about .about--detial h2 {
+        font-size: 60px;
+    }
+
+    .about .about--detial p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width : 1200px) {
+    .about {
+        padding: 170px 0;
+    }
+
+    .about .about--detial {
+        padding-top: 50px;
+    }
+
+}
+
+@media screen and (max-width : 860px) {
+    .about {
+        margin-top: -110px;
+
+    }
+
+    .about {
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    .about {
+        margin-top: -110px;
+
+    }
+
+    .about {
+        height: 500px;
+    }
+
+    .about .about--detial h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .about .about--detial p {
+        font-size: 20px;
+    }
+
+    .about .about--detial h2 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .about {
+        height: 400px;
+    }
+
+    .about .about--detial {
+        padding-top: 100px;
+    }
+
+}

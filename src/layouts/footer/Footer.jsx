@@ -1,5 +1,7 @@
 import './Footer.css'
-import instgramlinkied from '../../assets/images/footerlink.png'
+import insta from '../../assets/images/linked.png'
+import linked from "../../assets/images/link.png"
+import { Link } from 'react-router-dom'
 const Footer = () => {
     return (
         <footer>
@@ -12,7 +14,10 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-6 col-md-5 col-6">
                         <div className='footer--links text-end'>
-                            <img src={instgramlinkied} alt="instagram linkied" />
+
+                            <Link to='https://www.instagram.com/' target="_blank"  ><img src={insta} alt="instagram linkied" /></Link>
+
+                            <Link to='https://www.instagram.com/' target="_blank"  ><img src={linked} alt="instagram linkied" /></Link>
                         </div>
                     </div>
                 </div>

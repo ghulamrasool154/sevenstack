@@ -36,3 +36,49 @@
 .get--in--touch--wap .right h5:first {
     margin-bottom: 10px;
 }
+
+@media screen and (max-width : 992px) {
+    .getintouch {
+        padding: 70px 0;
+    }
+
+    .get--in--touch--wap .left h2 {
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    .get--in--touch--wap .right h5 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width : 767px) {
+    .getintouch {
+        padding: 50px 0;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .left h2 img {
+        max-height: 60px;
+    }
+
+    .get--in--touch--wap .right h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .get--in--touch--wap .left h2 {
+        font-size: 20px;
+    }
+
+    .get--in--touch--wap {
+        flex-direction: column;
+    }
+
+    .get--in--touch--wap .left {
+        margin-bottom: 20px;
+    }
+
+}

@@ -3,10 +3,10 @@ import mision from '../../assets/images/Mission 3.png'
 const AboutVision = () => {
     return (
         <section className='AboutVision'>
-            <div className="container">
+            <div className="container-xxl">
                 <div className="row vision--row">
-                    <div className="col-7"></div>
-                    <div className="col-5">
+                    <div className="col-md-7 col-12 "></div>
+                    <div className="col-md-5 col-12">
                         <h2 className='our--vision--mission'>Our Vision</h2>
                         <p className='our--vison--disc'>
                             We are a full service Information Technology Solutions Company serving small, medium and Fortune 500 companies with special focus on Government and Public Sector

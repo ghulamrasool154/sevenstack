@@ -10,15 +10,15 @@ const Header = () => {
         <>
             <header>
                 <div className="container-xxl">
-                    <div className="row align-items-center">
-                        <div className="col-lg-6 col-sm-4">
+                    <div className="row align-items-center responsive">
+                        <div className="col-lg-6 col-sm-4 col-4">
                             <div className='serven--logo'>
                                 <img src={logo} alt='serven stacks' />
 
                             </div>
                         </div>
 
-                        <div className="col-lg-6 col-sm-6">
+                        <div className="col-lg-6 col-sm-8 col-8">
                             <ul className='header--menu'>
                                 <li>
                                     <NavLink className={'nav--link'} to='/'> about us</NavLink>

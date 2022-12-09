@@ -11,6 +11,12 @@ import process from "../../assets/images/process.png"
 
 import GetInTouch from '../getintouch/GetInTouch'
 import { useState } from 'react'
+
+import determine from '../../assets/images/determine.png'
+import desing from "../../assets/images/designn.png"
+import develop from "../../assets/images/develop.png"
+import deploy from "../../assets/images/depolu.png"
+import processarrow from "../../assets/images/process_arrow 1.png"
 const ServiceSection = () => {
     const [itemes, setitems] = useState([
         {
@@ -72,7 +78,40 @@ const ServiceSection = () => {
                     <div className="col-12 ">
                         <div className='process--row'>
                             <h2 className='section--title'>Our Process</h2>
-                            <img src={process} alt="proces" className='img-fluid' />
+
+                            <div className="prodcess-wrapper">
+                                <div className='our--process--imge'>
+                                    <img src={determine} alt="" />
+                                    <h5 className='title--pro'>Determine</h5>
+                                </div>
+
+                                <div className='our--process--imge arrow'>
+                                    <img src={processarrow} alt="" className='arrow' />
+                                </div>
+
+                                <div className='our--process--imge'>
+                                    <img src={desing} alt="" />
+                                    <h5 className='title--pro'>design</h5>
+                                </div>
+
+                                <div className='our--process--imge arrow'>
+                                    <img src={processarrow} alt="" className='arrow' />
+                                </div>
+                                <div className='our--process--imge'>
+                                    <img src={develop} alt="" />
+                                    <h5 className='title--pro'>develop</h5>
+                                </div>
+
+                                <div className='our--process--imge arrow'>
+                                    <img src={processarrow} alt="" className='arrow' />
+                                </div>
+                                <div className='our--process--imge'>
+                                    <img src={deploy} alt="" />
+                                    <h5 className='title--pro'>deploy</h5>
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>

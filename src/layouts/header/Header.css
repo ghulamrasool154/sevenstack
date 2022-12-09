@@ -39,3 +39,85 @@ ul.header--menu {
 }
 
 /*  */
+
+@media screen and (max-width : 1400px) {
+    header {
+        padding: 50px 0;
+    }
+
+}
+
+@media screen and (max-width : 1024px) {
+    header {
+        padding: 35px 0;
+    }
+
+}
+
+@media screen and (max-width : 767px) {
+
+    header {
+        padding: 25px 0;
+    }
+
+    .serven--logo img {
+        max-height: 60px;
+    }
+
+    .header--menu a.nav--link {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width : 600px) {
+    .serven--logo img {
+        max-height: 30px;
+    }
+
+    .header--menu a.nav--link.active {
+        padding: 6px 10px;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+    }
+}
+
+
+@media screen and (max-width : 500px) {
+    .header--menu li {
+        padding-left: 10px !important;
+    }
+
+    .responsive {
+        flex-direction: column !important;
+    }
+
+    .responsive .serven--logo {
+        height: 60px;
+    }
+
+    header {
+        padding: 12px 0;
+    }
+
+    ul.header--menu {
+        justify-content: space-evenly;
+    }
+
+    .col-lg-6.col-sm-8.col-8 {
+        width: 100% !important;
+    }
+
+
+
+}
+
+/* @media screen and (max-width : 414px) {
+    .serven--logo img {
+        max-height: 25px;
+        width: 100%;
+    }
+   
+
+} */

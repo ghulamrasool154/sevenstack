@@ -47,3 +47,10 @@
     color: wheat;
 
 }
+
+@media screen and (max-width : 860px) {
+    .contact-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}

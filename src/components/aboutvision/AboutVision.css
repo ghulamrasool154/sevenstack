@@ -1,6 +1,7 @@
 .AboutVision {
     background-image: url('../../assets/images/ABUS_VISION\ 1.png');
     background-size: 100%;
+    /* background-size: 90%; */
     background-repeat: no-repeat;
     background-position: top left;
 }
@@ -97,4 +98,69 @@
     line-height: 152.36%;
     text-align: justify;
     color: #FFFFFF;
+}
+
+
+@media screen and (max-width : 1200px) {
+    .our--vision--mission {
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    .our--vison--disc {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .row.vision--row {
+        padding: 200px 0;
+    }
+
+    .mission--item .mission--disc {
+        margin-bottom: 80px;
+    }
+
+}
+
+@media screen and (max-width : 992px) {
+    .mission--wrapper .mission--item {
+        width: 48%;
+    }
+
+    .mission--wrapper {
+        flex-wrap: wrap;
+    }
+
+    .AboutVision {
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    .row.vision--row {
+        padding: 150px 0;
+    }
+
+    .our--vision--mission {
+        text-align: center;
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+}
+
+@media screen and (max-width : 600px) {
+    .mission--wrapper .mission--item {
+        width: 100%;
+    }
+
+    .mission--item .mission--disc {
+
+        margin-bottom: 40px;
+    }
+
+    .row.vision--row {
+        padding: 80px 0;
+    }
+
 }
