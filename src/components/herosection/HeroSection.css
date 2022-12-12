@@ -24,10 +24,10 @@
 }
 
 .hero--about .hero---title {
-    font-family: 'Harmattan', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
+    font-size: 75px;
     line-height: 90px;
     color: #FFFFFF;
 }
@@ -101,7 +101,7 @@
     }
 
     .hero--about .hero---title {
-        font-size: 40px;
+        font-size: 35px;
         line-height: 45px;
     }
 
@@ -118,5 +118,8 @@
     section.Home {
         margin-top: -134px;
     }
+
+
+
 
 }

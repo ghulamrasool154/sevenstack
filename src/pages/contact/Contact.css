@@ -7,18 +7,18 @@
 
 .contact-title {
 
-    font-family: 'Harmattan', sans-serif;
+    font-family: 'Raleway', sans-serif;
 
     font-style: normal;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 60px;
     color: white;
 }
 
 /* or 146px */
 .form--contact label {
 
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 25px;
@@ -48,9 +48,25 @@
 
 }
 
+.submit--button {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width : 992px) {
+    .contact--pop--up {
+        padding: 100px 0;
+    }
+
+}
+
 @media screen and (max-width : 860px) {
     .contact-title {
         font-size: 50px;
         line-height: 60px;
+    }
+
+    .contact--pop--up {
+        padding: 70px 0;
     }
 }

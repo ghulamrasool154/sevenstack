@@ -19,7 +19,7 @@ ul.header--menu {
 
 
 .header--menu a.nav--link {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -39,6 +39,11 @@ ul.header--menu {
 }
 
 /*  */
+
+header.contact-us-header {
+    background: linear-gradient(147deg, rgba(33, 103, 92, 1) 0%, rgba(22, 32, 45, 1) 100%);
+}
+
 
 @media screen and (max-width : 1400px) {
     header {
@@ -73,6 +78,7 @@ ul.header--menu {
 @media screen and (max-width : 600px) {
     .serven--logo img {
         max-height: 30px;
+        width: 100%;
     }
 
     .header--menu a.nav--link.active {
@@ -98,7 +104,7 @@ ul.header--menu {
     }
 
     header {
-        padding: 12px 0;
+        padding: 20px 0;
     }
 
     ul.header--menu {

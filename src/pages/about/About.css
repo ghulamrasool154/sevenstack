@@ -1,5 +1,5 @@
 .about {
-    background-image: url('../../assets/images/ABUS_HERO\ 1.png');
+    background-image: url('../../assets/images/test--ABUS_HERO\ 1.png');
     padding: 250px 0;
     background-repeat: no-repeat;
     width: 100%;
@@ -9,11 +9,11 @@
 }
 
 .about .about--detial h2 {
-    font-family: 'Harmattan', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 80px;
-    line-height: 80px;
+    font-size: 50px;
+    line-height: 60px;
     color: #FFFFFF;
 }
 
@@ -21,7 +21,7 @@
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 100;
-    font-size: 30px;
+    font-size: 25px;
     color: #ECECEC;
 
 }
@@ -29,11 +29,11 @@
 @media screen and (max-width : 1400px) {
 
     .about .about--detial h2 {
-        font-size: 60px;
+        font-size: 40px;
     }
 
     .about .about--detial p {
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
@@ -64,7 +64,7 @@
 
 @media screen and (max-width : 767px) {
     .about {
-        margin-top: -110px;
+        margin-top: -125px;
 
     }
 

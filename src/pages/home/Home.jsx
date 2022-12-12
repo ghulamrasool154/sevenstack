@@ -6,12 +6,10 @@ import Footer from "../../layouts/footer/Footer"
 const Home = () => {
     return (
         <>
-            <Header />
             <section className="Home">
                 <HeroSection />
                 <ServiceSection />
             </section>
-            <Footer />
         </>
 
     )

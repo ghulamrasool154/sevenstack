@@ -15,14 +15,26 @@ const Footer = () => {
                     <div className="col-lg-6 col-md-5 col-6">
                         <div className='footer--links text-end'>
 
-                            <Link to='https://www.instagram.com/' target="_blank"  ><img src={insta} alt="instagram linkied" /></Link>
+                            <Link to="https://www.facebook.com/">
+                                <span className='icon'>
+                                    <i class="fa-brands fa-facebook"></i>
+                                </span>
+                            </Link>
 
-                            <Link to='https://www.instagram.com/' target="_blank"  ><img src={linked} alt="instagram linkied" /></Link>
+                            <Link to="https://www.instagram.com/">
+                                <span className='icon'> <i class="fa-brands fa-instagram"></i>  </span>
+                            </Link>
+                            <Link to="https://www.linkedin.com/">
+                                <span className='icon'> <i class="fa-brands fa-linkedin-in"></i>  </span>
+                            </Link>
+                            {/* <Link to='https://www.instagram.com/' target="_blank"  ><img src={insta} alt="instagram linkied" /></Link>
+
+                            <Link to='https://www.instagram.com/' target="_blank"  ><img src={linked} alt="instagram linkied" /></Link> */}
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer >
     )
 }
 

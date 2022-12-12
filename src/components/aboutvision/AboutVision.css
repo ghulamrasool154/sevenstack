@@ -1,13 +1,14 @@
 .AboutVision {
-    background-image: url('../../assets/images/ABUS_VISION\ 1.png');
-    background-size: 100%;
+    background-image: url('../../assets/images/ABUS_VISION\ 1.png'), radial-gradient(rgba(50, 58, 66, 100) 0%, rgba(11, 17, 24, 72) 56%);
+    background-size: contain;
     /* background-size: 90%; */
     background-repeat: no-repeat;
     background-position: top left;
 }
 
 .our--vision--mission {
-    font-family: 'Harmattan', sans-serif;
+    /* font-family: 'Harmattan', sans-serif; */
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 96px;
@@ -103,8 +104,8 @@
 
 @media screen and (max-width : 1200px) {
     .our--vision--mission {
-        font-size: 70px;
-        line-height: 80px;
+        font-size: 50px;
+        line-height: 60px;
     }
 
     .our--vison--disc {
@@ -131,9 +132,9 @@
         flex-wrap: wrap;
     }
 
-    .AboutVision {
+    /* .AboutVision {
         background-size: cover;
-    }
+    } */
 }
 
 @media screen and (max-width : 767px) {
@@ -143,13 +144,24 @@
 
     .our--vision--mission {
         text-align: center;
-        font-size: 50px;
-        line-height: 50px;
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .our--vison--disc {
+        font-size: 18px;
+        line-height: inherit;
     }
 
 }
 
 @media screen and (max-width : 600px) {
+    .our--vision--mission {
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
     .mission--wrapper .mission--item {
         width: 100%;
     }

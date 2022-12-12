@@ -1,19 +1,22 @@
 
 import './Header.css'
 import logo from '../../assets/images/logo--new.png'
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink, useLocation } from 'react-router-dom'
 import { useState } from 'react'
 import Contact from '../../pages/contact/Contact'
 const Header = () => {
     const [contactPopup, setContactPopUP] = useState(false)
+    const location = useLocation()
+
     return (
         <>
-            <header>
+            <header className={location.pathname === `/contact` ? 'contact-us-header' : null}>
                 <div className="container-xxl">
                     <div className="row align-items-center responsive">
                         <div className="col-lg-6 col-sm-4 col-4">
                             <div className='serven--logo'>
-                                <img src={logo} alt='serven stacks' />
+                                <Link to='/'>
+                                    <img src={logo} alt='serven stacks' /></Link>
 
                             </div>
                         </div>
