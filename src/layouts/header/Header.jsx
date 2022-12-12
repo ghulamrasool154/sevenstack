@@ -10,7 +10,11 @@ const Header = () => {
 
     return (
         <>
-            <header className={location.pathname === `/contact` ? 'contact-us-header' : null}>
+            <header style={
+                {
+                    display: location.pathname === `/contact` ? 'none' : null
+                }
+            } className={location.pathname === `/contact` ? 'contact-us-header' : null}>
                 <div className="container-xxl">
                     <div className="row align-items-center responsive">
                         <div className="col-lg-6 col-sm-4 col-4">
@@ -30,7 +34,7 @@ const Header = () => {
                                     <NavLink className={'nav--link'} to='/service'> service</NavLink>
                                 </li>
                                 <li>
-                                    <Link className={'nav--link'} to='/contact' > Contact</Link>
+                                    <NavLink className={'nav--link'} to='/contact' > Contact</NavLink>
 
                                 </li>
                             </ul>

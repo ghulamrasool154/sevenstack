@@ -3,7 +3,7 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left bottom;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .footer--careers h5 {
@@ -30,8 +30,8 @@ footer {
     text-decoration: none;
     border: 1px solid rgba(72, 190, 53, 1);
     border-radius: 100px;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -39,15 +39,15 @@ footer {
 }
 
 .footer--links a span.icon {
-    font-size: 23px;
+    font-size: 20px;
     color: rgba(72, 190, 53, 1);
     ;
 }
 
 @media screen and (max-width : 500px) {
-    footer {
-        padding: 30px 0;
-    }
+    /* footer {
+        padding: 10px 0;
+    } */
 
     .footer--careers h5 {
         font-size: 25px;

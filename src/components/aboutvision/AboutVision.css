@@ -11,16 +11,17 @@
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
+    font-size: 75px;
     line-height: 152.36%;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .our--vison--disc {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 33.3911px;
+    font-size: 30px;
     line-height: 133.5%;
     /* or 45px */
 

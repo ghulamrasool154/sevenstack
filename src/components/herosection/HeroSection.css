@@ -27,9 +27,11 @@
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 75px;
+    font-size: 65px;
     line-height: 90px;
     color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.2ex;
 }
 
 .hero---title span {
@@ -41,9 +43,10 @@
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 38px;
+    font-size: 30px;
     text-align: center;
     color: #FFFFFF;
+    letter-spacing: 0.2ex;
 
 }
 
@@ -56,7 +59,7 @@
     }
 
     .hero--about .hero---title {
-        font-size: 80px;
+        font-size: 50px;
         text-align: center;
     }
 
@@ -66,11 +69,11 @@
 @media screen and (max-width : 1200px) {
 
     .hero--about .hero---title {
-        font-size: 70px;
+        font-size: 45px;
     }
 
     .hero--about .hero--disc {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     section.Home {
@@ -84,8 +87,8 @@
     }
 
     .hero--about .hero---title {
-        font-size: 60px;
-        line-height: 60px;
+        font-size: 40px;
+        line-height: 50px;
     }
 }
 
